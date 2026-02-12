@@ -3,6 +3,7 @@ Read the quickstart guide or follow the steps below to get started.
 Step 1: Clone the Repository
 git clone https://github.com/browser-use/web-ui.git
 cd web-ui
+
 Step 2: Set Up Python Environment
 We recommend using uv for managing the Python environment.
 
@@ -27,6 +28,8 @@ playwright install --with-deps
 Or you can install specific browsers by running:
 
 playwright install chromium --with-deps
+
+
 Step 4: Configure Environment
 Create a copy of the example environment file:
 Windows (Command Prompt):
@@ -34,6 +37,8 @@ copy .env.example .env
 macOS/Linux/Windows (PowerShell):
 cp .env.example .env
 Open .env in your preferred text editor and add your API keys and other settings
+
+
 Step 5: Enjoy the web-ui
 Run the WebUI:
 python webui.py --ip 127.0.0.1 --port 7788
